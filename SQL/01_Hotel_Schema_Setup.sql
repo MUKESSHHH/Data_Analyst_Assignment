@@ -29,7 +29,6 @@ CREATE TABLE booking_commercials (
     item_quantity DECIMAL(10, 2)
 );
 
--- 2. Insert Dummy Data (To make queries work)
 INSERT INTO users VALUES 
 ('u001', 'John Doe', '9700000000', 'john@example.com', '123 St'),
 ('u002', 'Jane Smith', '9800000000', 'jane@example.com', '456 Ave');
@@ -49,5 +48,5 @@ INSERT INTO booking_commercials VALUES
 ('comm-001', 'bk-001', 'bl-001', '2021-09-23 12:00:00', 'itm-001', 3),
 ('comm-002', 'bk-001', 'bl-001', '2021-09-23 12:00:00', 'itm-002', 1),
 ('comm-003', 'bk-002', 'bl-002', '2021-11-05 12:00:00', 'itm-003', 2),
-('comm-004', 'bk-003', 'bl-003', '2021-10-15 15:00:00', 'itm-002', 20), -- High value bill
+('comm-004', 'bk-003', 'bl-003', '2021-10-15 15:00:00', 'itm-002', 20),
 ('comm-005', 'bk-004', 'bl-004', '2021-11-12 10:00:00', 'itm-001', 5);
